@@ -40,7 +40,7 @@ void display(void) {
   
 	/* Second viewport */
 	glViewport(310, 50, 100, 100); // square (as the clipping view)  resolution 200x200 pixels
-	glColor3f(0.0f, 1.0f, 0.0f); //red color
+	glColor3f(0.0f, 1.0f, 0.0f); //greencolor
 	glRotatef(90, 0, 0, 1); // rotate 90 degrees
 	drawObject();
 
