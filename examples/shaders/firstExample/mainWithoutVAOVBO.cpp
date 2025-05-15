@@ -154,7 +154,7 @@ int main(int argc, char** argv) {
     glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
     glutCreateWindow("GLUT Window");
 
-    glewInit(); //HA DE SER DESPRÉS DE CREAR LA FINESTRA
+    glewInit(); //HA DE SER DESPRÃ‰S DE CREAR LA FINESTRA
 
 
     ShaderProgram myFirstProgram;
